@@ -6,9 +6,11 @@ import './index.css'
 
 const App = () => {
   return (
-    <div class="h-full bg-zinc-800">
-      <h1 class="text-3xl font-bold underline">hello react</h1>
-      <Board />
+    <div className="h-full w-full flex justify-center items-center bg-gradient-to-r from-cyan-800 to-emerald-600">
+      <div className="h-fit w-fit" >
+        <h1 className="text-5xl text-white mb-5">React 2048</h1>
+        <Board />
+      </div>
     </div>
   );
 };
