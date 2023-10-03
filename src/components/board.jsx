@@ -30,6 +30,8 @@ const BoardView = () => {
         board
       );
       newBoard.moveCel(direction);
+      newBoard.addRandomCell();
+      newBoard.freshFinish();
       setBoard(newBoard);
     }
   };
